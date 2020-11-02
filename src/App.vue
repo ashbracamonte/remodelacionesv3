@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Bienvenido a Vue.js App"/>
+    <button class="button is-dark">Dark</button>
   </div>
 </template>
 
@@ -13,10 +14,13 @@ export default {
   components: {
     HelloWorld
   }
+
+  
 }
 </script>
 
 <style>
+@import '~bulma/css/bulma.min.css';
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
